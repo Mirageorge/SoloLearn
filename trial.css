@@ -1,0 +1,63 @@
+@media (prefers-reduced-motion: no-preference) {
+    * {
+      scroll-behavior: smooth;
+    }
+  }
+  
+  .tech{
+    padding: 20px 8px 8px 32px;
+    border-bottom:0.5px solid black;
+  }
+  
+  #navbar{
+    height: 100%;
+    width: 20%;
+    position:fixed;
+    top: 0;
+    left:0;
+    background-color:white;
+    padding:0;
+    transition: 0.5s;
+    display:block;
+  }
+   
+  #navbar a {
+    padding: 20px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    border-bottom:0.5px solid black;
+  }
+  
+  #navbar a:hover{
+    cursor:pointer;
+  }
+  
+  div nav{
+    overflow:auto;
+  }
+  
+  #main-doc {
+    transition: margin-left .5s;
+    float:right;
+    width:80%
+  }
+  
+  
+  body {
+    background: #f5f6f7;
+    color: #1b1b32;
+    font-family: Helvetica;
+    margin: 0;
+    display:table;
+    padding: 20px 8px 8px 32px;
+  }
+  
+  header{
+    font-weight:bold;
+    margin:auto;
+    position:center;
+    font-size:25px;
+  }
